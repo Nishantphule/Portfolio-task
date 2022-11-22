@@ -1,0 +1,178 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+
+/* Heading */
+
+.big-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+
+/* container */
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+
+/* sections */
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+
+
+/* title section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+
+.title-img{
+    width: 95%;
+    height: fit-content;
+}
+
+.specs{
+    margin: 2% 0 0;
+    font-weight: 500;
+    color: rgb(234, 238, 241);
+    opacity: .8;
+}
+
+/* skill */
+
+.skills-section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 10px;
+    justify-content: space-evenly;
+    padding: 3%;
+    width: 100%;
+}
+
+.skill-card{
+    padding: 1%;
+    box-shadow: 2px 2px 10px black;
+    width: 18%;
+}
+
+.skill-img{
+    margin: auto;
+    width: 60px;
+    height: 80px;
+}
+
+.skill-title{
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+
+/* Testimonial section */
+
+#certificates{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 70%;
+    margin: 5%;
+}
+
+
+/* pricing */
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-col{
+    
+}
+
+.price-title{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-title{
+    font-size: 1.5rem;
+}
+
+
+/* footer */
+
+.socials{
+    padding: 2%;
+}
+
+
+@media (max-width:1028px) {
+    .title{
+        text-align: center;
+    }
+    .skill-card{
+        width: 23%;
+    }
+}
+
+@media (max-width:768px) {
+    .skill-card{
+        width: 30%;
+    }
+}
+
+@media (max-width:460px) {
+    .skill-card{
+        width: 48%;
+    }
+}
