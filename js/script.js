@@ -53,3 +53,45 @@ skills.forEach((skill) => {
     skillCard.append(skillImg,skillName)
     skillSection.appendChild(skillCard)
 })
+
+
+// projects section
+
+const projects = [
+    {
+        name:"Ice & Fire book api",
+        lang:"Javascript,HTML,CSS & bootstrap",
+        webLink:"https://ice-n-fire-api-hackathone.netlify.app/"
+    },
+    {
+        name:"Weather Forecast App",
+        lang:"Javascript,HTML,CSS & bootstrap",
+        webLink:"https://weather-forecast-api-app.netlify.app/"
+    },
+    {
+        name:"React-crud-user-app",
+        lang:"React,Javascript,CSS,mockapi & Material UI",
+        webLink:"https://react-app-user-crud.netlify.app/users"
+    }
+    
+]
+
+const projectsArea = document.getElementById("projects")
+
+projects.forEach((project) => {
+
+    projectsArea.innerHTML += `
+    
+    <div class="card col-lg-5">
+    
+    <div class="card-header">
+    <h2>${project.name}</h2>
+    </div>
+    
+    <div class="card-body">
+    <p>${project.lang}</p>
+    <button class="btn btn-lg btn-block btn-outline-dark"><a href="${project.webLink}" target="_blank">See Work</a></button>
+    </div>
+    
+  </div> `
+})

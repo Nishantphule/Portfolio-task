@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 /* sections */
 
 .coloured-section{
-    background-color: #ff4c68;
+    background-color: #eb812b;
     color: #fff;
 }
 
@@ -114,40 +114,35 @@ h1, h2, h3, h4, h5, h6{
 /* Testimonial section */
 
 #certificates{
-    background-color: #ef8172;
+    background-color: #f17955;
 }
 
-.testimonial-text{
+.certificate-text{
     font-size: 3rem;
     line-height: 1.5;
 }
 
-.testimonial-img{
+.certificate-img{
     width: 70%;
     margin: 5%;
 }
 
 
-/* pricing */
+/* projects */
 
 .section-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
-.pricing-col{
-    
+.card{
+    margin: 3% auto;
+    border: #f17955 solid 2px;
 }
 
-.price-title{
-    font-size: 3rem;
-    line-height: 1.5;
+.card-header{
+    margin-top: 2%;
 }
-
-.card-title{
-    font-size: 1.5rem;
-}
-
 
 /* footer */
 

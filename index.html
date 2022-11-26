@@ -9,6 +9,9 @@
   <!-- boostrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
   
@@ -42,7 +45,7 @@
               <a class="nav-link" href="#certificates">Certifications</a> 
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a> 
+            <a class="nav-link" href="#project-section">Projects</a> 
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#contactMe">Contact</a> 
@@ -63,8 +66,8 @@
       <img class="title-img" src="/images/My project.png" alt="random-image">
       
       <div class="row specs">
-        <div class="col-4">Projects <br> 10+</div>
-        <div class="col-4">Certifications <br> 6</div>
+        <div class="col-4">Projects <br> 3</div>
+        <div class="col-4">Certificates <br> 6</div>
         <div class="col-4">Skills <br> 8</div>
     </div>
       
@@ -93,40 +96,40 @@
 
   <section class="coloured-section" id="certificates">
     
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+    <div id="certificate-carousel" class="carousel slide" data-ride="false">
       <ol class="carousel-indicators">
-        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="3"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="4"></li>
-        <li data-target="#testimonial-carousel" data-slide-to="5"></li>
+        <li data-target="#certificate-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#certificate-carousel" data-slide-to="1"></li>
+        <li data-target="#certificate-carousel" data-slide-to="2"></li>
+        <li data-target="#certificate-carousel" data-slide-to="3"></li>
+        <li data-target="#certificate-carousel" data-slide-to="4"></li>
+        <li data-target="#certificate-carousel" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
         <h1>Certificates</h1>
         <div class="carousel-item active container-fluid">
-          <img class="testimonial-img" src="/certificates/python.png" alt="python-certificate">
+          <img class="certificate-img" src="/certificates/python.png" alt="python-certificate">
         </div>
         <div class="carousel-item container-fluid">
-          <img class="testimonial-img" src="/certificates/GuviCertification - 4n30MC133087GVz769.png" alt="python-certificate">
+          <img class="certificate-img" src="/certificates/GuviCertification - 4n30MC133087GVz769.png" alt="python-certificate">
         </div>
         <div class="carousel-item container-fluid">
-          <img class="testimonial-img" src="/certificates/GuviCertification - 5s66656047Lkrw5f61.png" alt="python-certificate">
+          <img class="certificate-img" src="/certificates/GuviCertification - 5s66656047Lkrw5f61.png" alt="python-certificate">
         </div>
         <div class="carousel-item container-fluid">
-          <img class="testimonial-img" src="/certificates/GuviCertification - 26K7yPQ6m943ZV1662.png" alt="python-certificate">
+          <img class="certificate-img" src="/certificates/GuviCertification - 26K7yPQ6m943ZV1662.png" alt="python-certificate">
         </div>
         <div class="carousel-item container-fluid">
-          <img class="testimonial-img" src="/certificates/GuviCertification - B1y721Wt665g3D1306.png" alt="python-certificate">
+          <img class="certificate-img" src="/certificates/GuviCertification - B1y721Wt665g3D1306.png" alt="python-certificate">
         </div>
         <div class="carousel-item container-fluid">
-          <img class="testimonial-img" src="/certificates/GuviCertification - G868Cp627fN1c7V176.png" alt="python-certificate">
+          <img class="certificate-img" src="/certificates/GuviCertification - G868Cp627fN1c7V176.png" alt="python-certificate">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-target="#testimonial-carousel" data-slide="prev">
+      <button class="carousel-control-prev" type="button" data-target="#certificate-carousel" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-target="#testimonial-carousel" data-slide="next">
+      <button class="carousel-control-next" type="button" data-target="#certificate-carousel" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
@@ -136,26 +139,18 @@
 
   <!-- Projects -->
 
-  <section class="white-section" id="projects">
-
-    <h2 class="section-heading">Projects/Work</h2>
-
-    <div class="">
+  <section class="white-section">
+    <div class="container-fluid" id="project-section">
       
-    <div class="pricing-col col-md-6 col-lg-4">
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Guvi Hackathone</h3>
-        </div>
-        <div class="card-body">
-          <h2 class="project-title">Ice & Fire api</h2>
-      <p>Creating a website to display books from ice & fire api</p>
-      <button class="btn btn-lg btn-block btn-outline-dark" type="button">See Work</button>
-        </div>
+      <h2 class="section-heading">Projects/Work</h2>
+      <div id="projects" class="row">
+        
+            
+            
       </div>
+          
     </div>
-  
-  </div>
+    
   
   </section>
 
@@ -165,8 +160,9 @@
   <section class="coloured-section" id="about">
     <div class="container-fluid">
       <h2>About me</h2>
-    <p class="about-me">I am a coder ,mechanical engineer ,social worker and also a Fitness enthusiast. <br>
-      Also I love to read books and cook food and watch podcasts to boost my knowledge and understanding in any field of my interest.</p>
+      
+    <p class="about-me">Apart from coding I am a mechanical engineer undergrad, social worker and also a Fitness enthusiast. <br>
+      Also I love to read books, cook food,play chess and watch podcasts to boost my knowledge and understanding in any field of my interest.</p>
 
   </div>
 </section>
@@ -177,19 +173,92 @@
   <section class="white-section" id="contactMe">
     
     <div class="container-fluid">
-      <h2>Contact</h2>
-    <i class="fa-brands fa-twitter socials"></i>
-    <i class="fa-brands fa-facebook socials"></i>
-    <i class="fa-brands fa-instagram socials"></i>
-    <i class="fa-sharp fa-solid fa-envelope socials"></i>
+      <section class="mb-4 border border-dark p-4 text-left">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+    
+        <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" action="https://formsubmit.co/el/wibewo" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="email" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left">
+                      <button class="btn btn-primary" type="submit">Send</button>
+                  </div>
+                </form>
+    
+                
+            </div>
+        </div>
+    
+    </section>
+      
+      
+      
+      
+    <a href="https://www.linkedin.com/in/nishant-phule-b274ba1b7/"><i class="fa-brands fa-linkedin socials fa-lg"></i></a>
+    <a href="https://twitter.com/phule_nishant"><i class="fa-brands fa-twitter socials fa-lg"></i></a>
+    <a href="https://github.com/Nishantphule"><i class="fa-brands fa-github socials fa-lg"></i></a>
+    <a href="mailto:nishantphule12@gmail.com"><i class="fa-sharp fa-solid fa-envelope socials fa-lg"></i></a> 
     <p>© Copyright 2022 @Nishant</p>
   </div>
   
   </section>
 
   
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/9899b2c42c.js" crossorigin="anonymous"></script>
+  
   
   <!-- external js -->
   <script src="/js/script.js"></script>
