@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: left;
 }
 
+
 /* Title Image */
 
 .title-img{
@@ -81,7 +82,12 @@ h1, h2, h3, h4, h5, h6{
     opacity: .8;
 }
 
+
 /* skill */
+
+.skill-header{
+    margin-bottom: 5%;
+}
 
 .skills-section{
     display: flex;
@@ -132,6 +138,7 @@ h1, h2, h3, h4, h5, h6{
 .section-heading{
     font-size: 2.5rem;
     line-height: 1.5;
+    margin-bottom: 5%;
 }
 
 .card{
@@ -139,9 +146,15 @@ h1, h2, h3, h4, h5, h6{
     border: #f17955 solid 2px;
 }
 
+.card-body button{
+    margin: auto;
+    width: 50%;
+}
+
 .card-header{
     margin-top: 2%;
 }
+
 
 /* footer */
 
@@ -149,6 +162,8 @@ h1, h2, h3, h4, h5, h6{
     padding: 2%;
 }
 
+
+/* media queries */
 
 @media (max-width:1028px) {
     .title{

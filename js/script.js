@@ -69,9 +69,14 @@ const projects = [
         webLink:"https://weather-forecast-api-app.netlify.app/"
     },
     {
-        name:"React-crud-user-app",
+        name:"React-crud-user-App",
         lang:"React,Javascript,CSS,mockapi & Material UI",
         webLink:"https://react-app-user-crud.netlify.app/users"
+    },
+    {
+        name:"ToDo-App",
+        lang:"Javascript,HTML,CSS & bootstrap",
+        webLink:"https://todo-list-myapp.netlify.app/"
     }
     
 ]
@@ -90,7 +95,7 @@ projects.forEach((project) => {
     
     <div class="card-body">
     <p>${project.lang}</p>
-    <button class="btn btn-lg btn-block btn-outline-dark"><a href="${project.webLink}" target="_blank">See Work</a></button>
+    <button class="btn btn-lg btn-block btn-outline-info btn-link"><a href="${project.webLink}" target="_blank">See Work</a></button>
     </div>
     
   </div> `
