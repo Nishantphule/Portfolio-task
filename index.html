@@ -161,7 +161,9 @@
     <div class="container-fluid">
       <h2>About me</h2>
       
-    <p class="about-me">Apart from coding I am a mechanical engineer undergrad, social worker and also a Fitness enthusiast. <br>
+    <p class="about-me">
+      <blockquote>I am a pursuing Full Stack Developer course from <em>"Guvi Institute"</em>  and I have completed the Frontend Part.</blockquote>  <br>
+      Apart from coding I am a mechanical engineer undergrad, social worker and also a Fitness enthusiast. <br>
       Also I love to read books, cook food,play chess and watch podcasts to boost my knowledge and understanding in any field of my interest.</p>
 
   </div>
@@ -184,7 +186,7 @@
     
             <!--Grid column-->
             <div class="col-md-12 mb-md-0 mb-5">
-                <form id="contact-form" action="https://formsubmit.co/el/wibewo" method="POST">
+                <form id="contact-form" action="https://formsubmit.co/nishantphule08@gmail.com" method="POST">
     
                     <!--Grid row-->
                     <div class="row">
@@ -192,8 +194,8 @@
                         <!--Grid column-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                                <label for="name" class="col-form-label">Your name</label>
                             </div>
                         </div>
                         <!--Grid column-->
@@ -201,8 +203,8 @@
                         <!--Grid column-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="email" id="email" name="email" class="form-control">
-                                <label for="email" class="">Your email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                                <label for="email" class="col-form-label">Your email</label>
                             </div>
                         </div>
                         <!--Grid column-->
@@ -215,7 +217,7 @@
                         <div class="col-md-12">
                             <div class="md-form mb-0">
                                 <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" class="">Subject</label>
+                                <label for="subject" class="col-form-label">Subject</label>
                             </div>
                         </div>
                     </div>
@@ -233,6 +235,7 @@
                             </div>
     
                         </div>
+                        <input type="hidden" name="_next" value="">
                     </div>
                     <div class="text-center text-md-left">
                       <button class="btn btn-primary" type="submit">Send</button>
