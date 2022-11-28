@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6{
     column-gap: 5px;
     row-gap: 10px;
     justify-content: space-evenly;
+    padding: 0 0 5%;
 }
 
 .skill-card{
