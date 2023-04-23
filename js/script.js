@@ -59,14 +59,14 @@ skills.forEach((skill) => {
 
 const projects = [
     {
-        name:"Ice & Fire book api",
+        name:"Youtube-Clone",
         lang:"Javascript,HTML,CSS & bootstrap",
-        webLink:"https://ice-n-fire-api-hackathone.netlify.app/"
+        webLink:"https://youtube-clone-bynishant.netlify.app/"
     },
     {
         name:"Weather Forecast App",
         lang:"Javascript,HTML,CSS & bootstrap",
-        webLink:"https://weather-forecast-api-app.netlify.app/"
+        webLink:"https://weather-app-api-openweather.netlify.app/"
     },
     {
         name:"React-crud-user-App",
