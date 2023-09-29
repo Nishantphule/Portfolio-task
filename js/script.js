@@ -88,12 +88,17 @@ const projects = [
     },
     {
         name: "Hotel Menu Site for QR Code",
-        lang: "React,Node & Express deployed on Lambda AWS & Material UI",
+        lang: "React,Node & Express with data on MongoDB and deployed on Lambda AWS & Material UI",
         webLink: "https://greeninn.netlify.app/"
     },
     {
+        name: "Banjos Menu Site for QR Code",
+        lang: "React,Node & Express with data on MongoDB and deployed on Lambda AWS & Material UI",
+        webLink: "https://banjos-menu.netlify.app/"
+    },
+    {
         name: "Password Reset in MERN stack with nodemailer Package",
-        lang: "React,Node & Express & Material UI",
+        lang: "React,Node & Express with data on MongoDB using Material UI",
         webLink: "https://password-reset-react-app.netlify.app/"
     }
 ]
