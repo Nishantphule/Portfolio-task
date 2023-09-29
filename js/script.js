@@ -26,8 +26,16 @@ const skills = [
         img: "https://1.bp.blogspot.com/-mzw13XQJPYM/XgzNHXSUdXI/AAAAAAAAAYY/xeIhLBEpTQUn8huUCnWXdUX6vIR_T4UCQCPcBGAYYCw/s1600/http___pluspng.com_img-png_nodejs-png-nodejs-icon-png-50-px-1600.png"
     },
     {
+        skill: "Express.JS",
+        img: "https://www.technoscore.com/img/expressjs.png"
+    },
+    {
         skill: "MongoDB",
         img: "https://th.bing.com/th/id/OIP.Ie_MJg_cy7B7gf4Uo7qP6wHaD4?w=290&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+        skill: "AWS",
+        img: "https://th.bing.com/th/id/OIP.b_al7C5p26tbZG4sy-CWqwHaFj?pid=ImgDet&rs=1"
     },
     {
         skill: "Python",
